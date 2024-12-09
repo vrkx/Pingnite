@@ -2,13 +2,17 @@
 using System.Net.NetworkInformation;
 using System.Threading.Tasks;
 using System;
+using System.Data;
 
 namespace Pingnite
 {
 
 class Program {
+    
 static void Main(string[] args)
 {
+    
+Console.Title = "Pingnite";
     string text = @"
  ____                                    __             
 /\  _`\   __                          __/\ \__          
@@ -37,6 +41,7 @@ Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("  Na-East Ping :");
 Console.WriteLine(" ");
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-nae.ds.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replyea.Address );
 Console.WriteLine("  Ping :" + " " + replyea.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replyea.Status);
@@ -53,6 +58,7 @@ Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("  Na-Central Ping :");
 Console.WriteLine(" ");
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-nae.nac.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replyc.Address );
 Console.WriteLine("  Ping :" + " " + replyc.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replyc.Status);
@@ -69,6 +75,7 @@ Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("  Na-West Ping :");
 Console.WriteLine(" ");
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-naw.ds.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replyw.Address );
 Console.WriteLine("  Ping :" + " " + replyw.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replyw.Status);
@@ -85,6 +92,7 @@ Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("  Europe Ping :");
 Console.WriteLine(" ");
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-eu.ds.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replyeu.Address );
 Console.WriteLine("  Ping :" + " " + replyeu.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replyeu.Status);
@@ -101,6 +109,7 @@ Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("  Europe Ping :");
 Console.WriteLine(" ");
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-oce.ds.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replyo.Address );
 Console.WriteLine("  Ping :" + " " + replyo.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replyo.Status);
@@ -109,17 +118,53 @@ Console.WriteLine("  Connection Status : " +replyo.Status);
 
 Console.WriteLine(" ");
 Ping pingbr = new Ping();
+
 PingReply replybr = pingbr.Send("ping-br.ds.on.epicgames.com",1000);
 if( replybr.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
 
-Console.WriteLine("  Europe Ping :");
+Console.WriteLine("  Brazil Ping :");
 Console.WriteLine(" ");
 Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-br.ds.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replybr.Address );
 Console.WriteLine("  Ping :" + " " + replybr.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replybr.Status);
+
+}
+
+Console.WriteLine(" ");
+Ping pingas = new Ping();
+PingReply replyas = pingeu.Send("ping-asia.ds.on.epicgames.com",1000);
+if( replyas.Status.ToString() == "Success" ){
+
+Console.ForegroundColor = ConsoleColor.White;
+
+Console.WriteLine("  Asia Ping :");
+Console.WriteLine(" ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-br.asia.on.epicgames.com");
+Console.WriteLine("  Fortnite-Server-IP :" + " " + replyas.Address );
+Console.WriteLine("  Ping :" + " " + replyas.RoundtripTime + "ms");
+Console.WriteLine("  Connection Status : " +replyas.Status);
+
+}
+
+Console.WriteLine(" ");
+Ping pingm = new Ping();
+PingReply replym = pingeu.Send("ping-me.ds.on.epicgames.com",1000);
+if( replym.Status.ToString() == "Success" ){
+
+Console.ForegroundColor = ConsoleColor.White;
+
+Console.WriteLine("  Middle East Ping :");
+Console.WriteLine(" ");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("  Host: ping-me.ds.on.epicgames.com");
+Console.WriteLine("  Fortnite-Server-IP :" + " " + replym.Address );
+Console.WriteLine("  Ping :" + " " + replym.RoundtripTime + "ms");
+Console.WriteLine("  Connection Status : " +replym.Status);
 
 }
 
@@ -131,4 +176,3 @@ System.Threading.Thread.Sleep(-1);
 }
 
 }
-

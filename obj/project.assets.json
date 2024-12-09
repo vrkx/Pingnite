@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan\\Desktop\\ss\\Pingnite\\Pingnite.csproj",
+      "projectUniqueName": "C:\\Users\\Juan\\Documents\\GitHub\\Pingnite\\Pingnite.csproj",
       "projectName": "Pingnite",
-      "projectPath": "C:\\Users\\Juan\\Desktop\\ss\\Pingnite\\Pingnite.csproj",
+      "projectPath": "C:\\Users\\Juan\\Documents\\GitHub\\Pingnite\\Pingnite.csproj",
       "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan\\Desktop\\ss\\Pingnite\\obj\\",
+      "outputPath": "C:\\Users\\Juan\\Documents\\GitHub\\Pingnite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config"
