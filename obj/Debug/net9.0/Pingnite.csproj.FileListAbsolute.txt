@@ -1,0 +1,14 @@
+c:\Users\Juan\Desktop\ss\Pingnite\bin\Debug\net9.0\Pingnite.exe
+c:\Users\Juan\Desktop\ss\Pingnite\bin\Debug\net9.0\Pingnite.deps.json
+c:\Users\Juan\Desktop\ss\Pingnite\bin\Debug\net9.0\Pingnite.runtimeconfig.json
+c:\Users\Juan\Desktop\ss\Pingnite\bin\Debug\net9.0\Pingnite.dll
+c:\Users\Juan\Desktop\ss\Pingnite\bin\Debug\net9.0\Pingnite.pdb
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.AssemblyInfoInputs.cache
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.AssemblyInfo.cs
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.csproj.CoreCompileInputs.cache
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.dll
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\refint\Pingnite.dll
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.pdb
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\Pingnite.genruntimeconfig.cache
+c:\Users\Juan\Desktop\ss\Pingnite\obj\Debug\net9.0\ref\Pingnite.dll
