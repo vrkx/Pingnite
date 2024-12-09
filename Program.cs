@@ -12,7 +12,14 @@ class Program {
 static void Main(string[] args)
 {
     
+
+
 Console.Title = "Pingnite";
+for(int i = 0; i <100;i++){
+
+    Console.Clear();
+    
+
     string text = @"
  ____                                    __             
 /\  _`\   __                          __/\ \__          
@@ -32,10 +39,30 @@ Console.WriteLine(text);
 Console.ForegroundColor = ConsoleColor.DarkBlue;
 Console.WriteLine("  Coded and Made by @vrkx!");
 Console.WriteLine(" ");
+
+
+
 Ping pingea = new Ping();
 PingReply replyea = pingea.Send("ping-nae.ds.on.epicgames.com",1000);
-if( replyea.Status.ToString() == "Success" ){
-
+//
+Ping pingas = new Ping();
+PingReply replyas = pingas.Send("ping-asia.ds.on.epicgames.com",1000);
+//
+Ping pingm = new Ping();
+PingReply replym = pingm.Send("ping-me.ds.on.epicgames.com",1000);
+//
+Ping pingc = new Ping();
+PingReply replyc = pingc.Send("ping-nac.ds.on.epicgames.com",1000);
+//
+Ping pingw = new Ping();
+PingReply replyw = pingw.Send("ping-naw.ds.on.epicgames.com",1000);
+//
+Ping pingeu = new Ping();
+PingReply replyeu = pingeu.Send("ping-eu.ds.on.epicgames.com",1000);
+//
+Ping pingo = new Ping();
+PingReply replyo = pingo.Send("ping-oce.ds.on.epicgames.com",1000);
+//
 Console.ForegroundColor = ConsoleColor.White;
 
 Console.WriteLine("  Na-East Ping :");
@@ -46,11 +73,10 @@ Console.WriteLine("  Fortnite-Server-IP :" + " " + replyea.Address );
 Console.WriteLine("  Ping :" + " " + replyea.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replyea.Status);
 
-}
+
 Console.WriteLine(" ");
 
-Ping pingc = new Ping();
-PingReply replyc = pingc.Send("ping-nac.ds.on.epicgames.com",1000);
+
 if( replyc.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -66,8 +92,7 @@ Console.WriteLine("  Connection Status : " +replyc.Status);
 }
 
 Console.WriteLine(" ");
-Ping pingw = new Ping();
-PingReply replyw = pingw.Send("ping-naw.ds.on.epicgames.com",1000);
+
 if( replyw.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -83,8 +108,7 @@ Console.WriteLine("  Connection Status : " +replyw.Status);
 }
 
 Console.WriteLine(" ");
-Ping pingeu = new Ping();
-PingReply replyeu = pingeu.Send("ping-eu.ds.on.epicgames.com",1000);
+
 if( replyeu.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -100,8 +124,7 @@ Console.WriteLine("  Connection Status : " +replyeu.Status);
 }
 
 Console.WriteLine(" ");
-Ping pingo = new Ping();
-PingReply replyo = pingo.Send("ping-oce.ds.on.epicgames.com",1000);
+
 if( replyeu.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -135,8 +158,7 @@ Console.WriteLine("  Connection Status : " +replybr.Status);
 }
 
 Console.WriteLine(" ");
-Ping pingas = new Ping();
-PingReply replyas = pingeu.Send("ping-asia.ds.on.epicgames.com",1000);
+
 if( replyas.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -152,8 +174,7 @@ Console.WriteLine("  Connection Status : " +replyas.Status);
 }
 
 Console.WriteLine(" ");
-Ping pingm = new Ping();
-PingReply replym = pingeu.Send("ping-me.ds.on.epicgames.com",1000);
+
 if( replym.Status.ToString() == "Success" ){
 
 Console.ForegroundColor = ConsoleColor.White;
@@ -165,11 +186,14 @@ Console.WriteLine("  Host: ping-me.ds.on.epicgames.com");
 Console.WriteLine("  Fortnite-Server-IP :" + " " + replym.Address );
 Console.WriteLine("  Ping :" + " " + replym.RoundtripTime + "ms");
 Console.WriteLine("  Connection Status : " +replym.Status);
+Console.SetCursorPosition(0, 0);
 
 }
 
-System.Threading.Thread.Sleep(-1);
- 
+
+Thread.Sleep(1500);
+
+}
 }
 
    

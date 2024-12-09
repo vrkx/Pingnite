@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pingnite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e72ed61884e2550852f4ceb9b5ce0e0cafdac88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc798b2c9de7001b8dfbe2fd790e6924f5b84eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pingnite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pingnite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
