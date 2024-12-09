@@ -1,5 +1,13 @@
+![Proyecto nuevo](https://github.com/user-attachments/assets/a949e0d6-3694-427f-aac8-3f4066b894ad)
+
 # Pingnite
-Pingnite is a free tool to check whats the closest fortnite server to you, to help you get less ping than you have when connected to auto servers.
+Pingnite is a free tool to check whats the closest fortnite server to you, it's a tool that connects you to Fortnite Servers and tells you the information about them, to help you get less ping than you have when connected to auto servers.
+
+# THIS MAY NOT WORK WELL ON PUBLIC GAMES
+
+## Preview
+![image](https://github.com/user-attachments/assets/52936ab4-b259-4368-b74d-a45a124b59ba)
+
 
 # Why is this so useful?
 
