@@ -4,6 +4,7 @@
 Pingnite is a free tool to check whats the closest fortnite server to you, it's a tool that connects you to Fortnite Servers and tells you the information about them, to help you get less ping than you have when connected to auto servers.
 
 # THIS MAY NOT WORK WELL ON PUBLIC GAMES
+Even if you get low ping on private games this changes a lot in public games causing you to get high ping, **It is recommended to use Pingnite when playing singleplayer and not Multiplayer like BR or any Creative map on public**
 
 ## Preview
 ![image](https://github.com/user-attachments/assets/52936ab4-b259-4368-b74d-a45a124b59ba)
