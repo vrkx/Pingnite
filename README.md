@@ -1,3 +1,5 @@
+# PINGNITE CONSOLE WILL NO LONGER BE UPDATED, THE NEWEST VERSION IS [PINGNITE UI](https://github.com/vrkx/PingniteUI)
+
 ![Proyecto nuevo](https://github.com/user-attachments/assets/a949e0d6-3694-427f-aac8-3f4066b894ad)
 
 # Pingnite
